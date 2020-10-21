@@ -6,7 +6,7 @@
     flex-flow: wrap row;
     justify-content: center;
     align-items: center;
-    height: 550px;
+    height: 100%;
     width: 100%;
 }
 .card {
@@ -43,7 +43,10 @@
     box-shadow: 15px 15px 10px black;
 }
 
-
+html, body {
+    margin: 0;
+    height: 100%;
+}
 
 
 
